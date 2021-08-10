@@ -9,7 +9,7 @@
         "@types/chrome": "0.0.92",
         "@types/jquery": "^3.3.31",
         "@types/jqueryui": "^1.12.10",
-        "esbuild": "^0.8.26",
+        "esbuild": "^0.8.57",
         "simplemde": "^1.11.2",
         "typescript": "^3.7.5"
     },
