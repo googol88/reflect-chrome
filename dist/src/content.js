@@ -17049,7 +17049,7 @@
           anim.animate();
         }
         const welcome = document.getElementById("customMessageContent");
-        welcome.textContent = storage.customMessage || "hey! what are you here for?";
+        welcome.textContent = storage.customMessage || "Got any grapes?";
         var simplemde = new import_simplemde.default();
       });
     });
