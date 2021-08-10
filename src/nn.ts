@@ -274,7 +274,7 @@ export class IntentClassifier {
 
   async predict(intent: string): Promise<boolean> {
     // tokenize and convert to 1d tensor
-    const tokens: number[] = this.tokenizer.tokenize(intent)
+    /*const tokens: number[] = this.tokenizer.tokenize(intent)
     const inputTensor: tf.Tensor = tf.tensor2d([tokens])
 
     // predict
@@ -289,7 +289,8 @@ export class IntentClassifier {
         const confidence: number = predictions[0]
         return confidence > (storage.predictionThreshold ?? 0.5)
       })
-    })
+    })*/
+    return false
   }
 
   async loadModel(modelName: string) {
